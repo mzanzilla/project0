@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container-fluid">
+  <div class="row firstcolumn">
+    <div class="col-md-4">
+       <img src="static/images/fruitsandveges.jpg" class="img-rounded img-fluid" alt="fruts and salad"><br /><br /><hr><br />
+       <img src="static/fruits.jpg" class="img-rounded img-fluid" alt="fruts" width=100%>
+    </div>
+    <div class="col-md-8 secondcolumn">
+      <h1>Sample Diet Plan</h1><br /><br />
+      <div class="table-responsive">
+         <table class="table">
+        <thead>
+         <tr>
+           <th></th>
+           <th>Day 1</th>
+           <th>Day 2</th>
+           <!-- <th>Day 3</th> -->
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td class="rowbold">Breakfast</td>
+           <td>
+             <ul>
+               <li>2 boiled eggs</li>
+               <li>1 slice of toast with peanut butter</li>
+             </ul>
+           </td>
+           <td>
+             <ul>
+               <li>3 scrambled eggs with cheese</li>
+               <li>5 whole wheat crackers</li>
+               <li>1 low-fat yoghurt</li>
+             </ul>
+           </td>
+         </tr>
+         <tr>
+           <td class="rowbold">Lunch</td>
+           <td>
+             <ul>
+               <li>7 ounce chicken breast</li>
+               <li>2 cup brocolli</li>
+               <li>1 cup brown rice</li>
+             </ul>
+           </td>
+           <td>
+             <ul>
+               <li>Tuna Salad</li>
+               <li>6 whole wheat crackers</li>
+               <li>1 cup low-fat yoghurt</li>
+             </ul>
+           </td>
+         </tr>
+         <tr>
+           <td class="rowbold">Dinner</td>
+           <td>
+             <ul>
+               <li>1/2 baked potato</li>
+               <li>8 ounce of steak</li>
+               <li>2 cups of brocolli</li>
+             </ul>
+           </td>
+           <td>
+             <ul>
+               <li>1 Medium bowl of Kale Salad</li>
+               <li>1 cup of orange juice</li>
+             </ul>
+           </td>
+         </tr>
+       </tbody>
+         </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
